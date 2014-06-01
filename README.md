@@ -26,3 +26,6 @@ Source theXml = template.xmlResponseFor(model);
 Then making assertions against the xml:
 
 assertThat(theXml, hasXPath("//td[@id='this-one']", containsString("Expected")));
+
+
+Some further details at https://cleantestcode.wordpress.com/2014/06/01/unit-testing-freemarker-templates/
